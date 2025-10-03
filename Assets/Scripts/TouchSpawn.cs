@@ -10,14 +10,12 @@ public class TouchSpawn : MonoBehaviour
     private AudioSource audioSource;
     public AudioClip clip;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         index = 0;
         audioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(Input.touchCount > 0)
@@ -46,13 +44,4 @@ public class TouchSpawn : MonoBehaviour
             }
         }
     }
-
-    // Baka mitai kodomo nano ne
-    // Yume wo otte kizutsuite
-    // Uso ga heta na kuse ni waraenai egao wo miseta
-    // I love you moroku ni iwanai
-    // Kuchi-ben de hontō ni bukiyō
-    // Na no ni na no ni dōshite sayonara wa ieta no
-    // Dame da ne
-    // Dame yo dame na no yo
 }

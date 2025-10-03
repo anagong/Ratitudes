@@ -9,17 +9,24 @@ public class Bonk : MonoBehaviour
 {
     private int pontos;
     public GameObject martelo;
-    public TextMeshProUGUI tmp;
+    
+    [Header("HUD")]
+    public TextMeshProUGUI tmpontos;
+    public TextMeshProUGUI tmBonks;
+    private int bonks;
+
+    [Header("rato bravo grr")]
     public RatoBravo ratoBravo;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
 
     }
 
-    // Update is called once per frame
     void Update()
     {
+        
+
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
@@ -36,11 +43,13 @@ public class Bonk : MonoBehaviour
                     {
                         pontos += 150;
                         hit.gameObject.SetActive(false);
+                        bonks++;
                     }
 
                     if (hit.gameObject.CompareTag("RatoBravo"))
                     {
                         ratoBravo = hit.gameObject.GetComponent<RatoBravo>();
+                        bonks++;
                         ratoBravo.vida--;
                         if(ratoBravo.vida == 0)
                         {
@@ -58,6 +67,11 @@ public class Bonk : MonoBehaviour
             }
         }
 
-        tmp.text = "Pts: " + pontos;
+        tmBonks.text = bonks + " acertos";
+        tmpontos.text = "Pts: " + pontos;
+        if(pontos >= 3000)
+        {
+            SceneManager.LoadScene(3);
+        }
     }
 }

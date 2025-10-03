@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e63fd3b6bb3272b47a9e83b990df2cfc
+guid: ba17854c487b1ab4896fa8003d00fcec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2671711357878633239
-    second: fundobase_1_0
+      213: -5221363456329165912
+    second: rato_demonio_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fundobase_1_0
+      name: rato_demonio_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1080
-        height: 1920
+        x: 13
+        y: 85
+        width: 453
+        height: 309
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7138bbc1353d31520800000000000000
-      internalID: 2671711357878633239
+      spriteID: 8a35b46b99df987b0800000000000000
+      internalID: -5221363456329165912
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      fundobase_1_0: 2671711357878633239
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

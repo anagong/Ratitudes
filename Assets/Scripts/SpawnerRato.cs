@@ -46,10 +46,6 @@ public class SpawnerRato : MonoBehaviour
             case 4:
                 spawnersRatoBomzinho[randomizador].SetActive(true);
                 break;
-
-            case 5:
-                spawnersRatoBomzinho[randomizador].SetActive(true);
-                break;
         }
 
         startingTimer = Random.Range(1.2f, 3);

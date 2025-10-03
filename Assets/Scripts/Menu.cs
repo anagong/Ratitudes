@@ -6,7 +6,6 @@ using UnityEngine.WSA;
 
 public class Menu : MonoBehaviour
 {
-    // Update is called once per frame
     void Update()
     {
         if (Input.touchCount > 0)

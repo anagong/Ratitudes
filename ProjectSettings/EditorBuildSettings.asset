@@ -5,9 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/0 - Tela de Inicio.unity
+    guid: 6ebed64fcbbdf454eb92189b5711df8d
+  - enabled: 1
+    path: Assets/Scenes/1 - Jogo.unity
+    guid: 5e8b19f9e1abf8c4eb63e4308f1a24b5
+  - enabled: 1
+    path: Assets/Scenes/2 - Derrota.unity
+    guid: cc29db96dfb1847439814ed9eccfe569
+  - enabled: 1
+    path: Assets/Scenes/3 - Vitoria.unity
+    guid: 1f3a2841790b4e34ea08129220620c15
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

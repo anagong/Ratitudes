@@ -124,10 +124,10 @@ TextureImporter:
         serializedVersion: 2
         x: 96
         y: 69
-        width: 507
-        height: 295
+        width: 625
+        height: 298
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -140,55 +140,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: ratitudes_bonk(2)_1
-      rect:
-        serializedVersion: 2
-        x: 546
-        y: 278
-        width: 79
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c7f98e16247844c60800000000000000
-      internalID: 7801509173692768124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratitudes_bonk(2)_2
-      rect:
-        serializedVersion: 2
-        x: 630
-        y: 278
-        width: 79
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b8ecdd101d4ecfdc0800000000000000
-      internalID: -3603754015472628085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d3fcecf2d0c2ae34199f5f2ef31b7805
     internalID: 0
     vertices: []
     indices: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8001c1b432489d34b8b8f18d37d86084
+guid: e0b1b27de06c28c4e8c1e8b9517c0cd3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5563149505044921335
-    second: assets-bonk_0
+      213: -1494604903710898365
+    second: ratitudes_derrota_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: assets-bonk_0
+      name: ratitudes_derrota_0
       rect:
         serializedVersion: 2
-        x: 86
-        y: 103
-        width: 865
-        height: 944
+        x: 0
+        y: 0
+        width: 1080
+        height: 1920
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 904486ffff8bbc2b0800000000000000
-      internalID: -5563149505044921335
+      spriteID: 34741c242c8124be0800000000000000
+      internalID: -1494604903710898365
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      assets-bonk_0: -5563149505044921335
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
