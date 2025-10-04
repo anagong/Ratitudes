@@ -8,7 +8,7 @@ public class RatoBom : MonoBehaviour
 
     private void OnEnable()
     {
-        exitTimer = 3.5f;
+        exitTimer = 2.5f;
     }
 
     private void Start()

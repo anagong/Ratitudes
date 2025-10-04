@@ -8,6 +8,7 @@ public class SpawnerRato : MonoBehaviour
     public GameObject[] spawnersRatoBomzinho;
     public float startingTimer;
     public float timerSpawn;
+
     void Start()
     {
         startingTimer = 3;

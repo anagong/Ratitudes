@@ -9,7 +9,9 @@ public class Bonk : MonoBehaviour
 {
     private int pontos;
     public GameObject martelo;
-    
+    private AudioSource audioSource;
+    public AudioClip clip;
+
     [Header("HUD")]
     public TextMeshProUGUI tmpontos;
     public TextMeshProUGUI tmBonks;
@@ -20,7 +22,7 @@ public class Bonk : MonoBehaviour
 
     void Start()
     {
-
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -41,6 +43,12 @@ public class Bonk : MonoBehaviour
                 {
                     if (hit.gameObject.CompareTag("RatoComum"))
                     {
+                        //Tocar o Som
+                        if (clip != null)
+                        {
+                            audioSource.PlayOneShot(clip);
+                        }
+
                         pontos += 150;
                         hit.gameObject.SetActive(false);
                         bonks++;
@@ -48,6 +56,12 @@ public class Bonk : MonoBehaviour
 
                     if (hit.gameObject.CompareTag("RatoBravo"))
                     {
+                        //Tocar o Som
+                        if (clip != null)
+                        {
+                            audioSource.PlayOneShot(clip);
+                        }
+
                         ratoBravo = hit.gameObject.GetComponent<RatoBravo>();
                         bonks++;
                         ratoBravo.vida--;

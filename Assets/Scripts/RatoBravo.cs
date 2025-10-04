@@ -8,7 +8,7 @@ public class RatoBravo : MonoBehaviour
 
     private void OnEnable()
     {
-        exitTimer = 3.5f;
+        exitTimer = 3.0f;
         vida = 2;
     }
 
